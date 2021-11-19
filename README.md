@@ -14,3 +14,7 @@ I have used [off-shelf model] (https://huggingface.co/alvaroalon2/biobert_chemic
 # Example to tokenization problem :-
 
 ![Splitted](https://github.com/GhadeerMobasher/BioCreative/blob/master/image_2021_08_18T08_35_16_742Z.png)
+
+# Link to Workshop Paper :- 
+
+[bioRxiv preprint](https://www.biorxiv.org/content/10.1101/2021.11.09.467905v1.full.pdf)
