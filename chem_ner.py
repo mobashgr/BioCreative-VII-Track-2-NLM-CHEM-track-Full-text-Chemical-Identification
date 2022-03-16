@@ -95,12 +95,9 @@ def main():
                         for i in range(0,len(Finalspan)-1,2):
                             value = Finalspan[i:i+2]
                             if len(value)>0:
-                              #  print (value) 
                                 t= (rating[value[0]:value[1]]) #start
                                 counter+=1
-                           # if len (start) and len(end) >0 :
                                 Annotation = ElementTree.SubElement(neighbor, 'annotation', {'id':str (counter)})
-                              #  print(counter)
                                 Typer = ElementTree.SubElement(Annotation, 'infon',{'key':'type'})
                                 Typer.text= 'Chemical'
                                 starrt=int(value[0])
@@ -116,4 +113,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
