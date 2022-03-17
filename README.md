@@ -11,9 +11,6 @@ We were working with XML files.
 # Used ChemNER Model:-
 I have used [off-shelf model] (https://huggingface.co/alvaroalon2/biobert_chemical_ner) that was fine-tuned on BC5CDR-chemicals and BC4CHEMD corpus.
 
-# Example to tokenization problem :-
-
-![Splitted](https://github.com/GhadeerMobasher/BioCreative/blob/master/image_2021_08_18T08_35_16_742Z.png)
 
 # Link to Workshop Paper :- 
 
