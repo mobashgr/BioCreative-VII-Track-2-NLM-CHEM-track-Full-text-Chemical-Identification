@@ -89,8 +89,7 @@ def main():
                         for i in span:
                              if i not in Finalspan and span.count(i) <=1:
                                 Finalspan.append(i)
-                             #print("duplicate removal")
-                        #print(Finalspan)
+                             
 
                         for i in range(0,len(Finalspan)-1,2):
                             value = Finalspan[i:i+2]
